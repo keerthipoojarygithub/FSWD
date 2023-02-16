@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    background-image: url('endingpagewallpaper.jpg');
+}
+
+#logo{
+    position: absolute;
+width: 160px;
+height: 150px;
+left: 600px;
+top: 30px;
+}
+#herotext1{
+    position: relative;
+width: 1242px;
+height: 282px;
+left: 580px;
+top: 100px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 121px;
+
+background: linear-gradient(180deg, #45F508 0%, rgba(101, 184, 72, 0) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+#herotext2{
+    position: absolute;
+width: 1242px;
+height: 282px;
+left: 450px;
+top: 150px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 121px;
+
+color:rgb(236, 152, 42);
+
+}
+#herodescription1{
+    position:absolute;
+width: 917px;
+height: 60px;
+left: 400px;
+top: 300px;
+
+font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 88px;
+
+color: #FFFFFF;
+
+}
+#herodescription2{
+    position: relative;
+width: 343px;
+height: 88px;
+left: 600px;
+top: 5px;
+
+font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 88px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+#cta{
+    disply: flex;
+flex-direcion: column;
+align-ites: flex-start;
+padding: 20px;
+gap: 2px;
+border-radius: 45px;
+
+position: relative;
+width: 180px;
+height: 60px;
+left: 600px;
+top: 20px;
+background: rgba(23, 225, 201, 1);
+font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+text-align: center;
+line-height: 20px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+
+
+}
+#cta:hover{
+    cursor: pointer;
+    scale: 110%;
+    transform: 500ms;
+}
